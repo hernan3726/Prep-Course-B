@@ -83,8 +83,7 @@ function devolverString(str) {
     // Devuelve "true" si "num" es impar
     // De lo contrario, devuelve "false"
     // Tu código:
-    if (num % 3 === 0) {return true} 
-    return false ; 
+  
   }
   
   function elevarAlCuadrado(num) {
@@ -97,7 +96,7 @@ function devolverString(str) {
   function elevarAlCubo(num) {
     // Devuelve el valor de "num" elevado al cubo
     // Tu código:
-    return num ** num 
+   
   }
   
   function elevar(num, exponent) {
