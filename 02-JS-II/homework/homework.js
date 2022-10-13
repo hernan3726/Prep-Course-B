@@ -99,6 +99,7 @@ function devolverString(str) {
   function elevarAlCubo(num) {
     // Devuelve el valor de "num" elevado al cubo
     // Tu código:
+    return Math.pow(num,3) 
    
   }
   
@@ -135,7 +136,7 @@ function devolverString(str) {
     // Tu código:
     if (numero > 0) {return "es positivo"} 
     else if (numero < 0) {return "Es negativo"}
-    else if (numero === 0 ) {return false} ;
+    else {return false}  
   }
   
   function agregarSimboloExclamacion(str) {
