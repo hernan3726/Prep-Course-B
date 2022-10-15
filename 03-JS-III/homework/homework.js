@@ -8,18 +8,33 @@ function imprimirSumaNumeros() {
     // Imprime la suma de los números del 1 al 10
     // Pista: usa un acumulador
     // Tu código:
+   var contando = 10
+   while(contando <= 10) { 
+    console.log( contando ) 
+    contando ++ ; }   
+   
 }
 
 function encuentraPares(array){
   // Devuelve un arreglo con los pares encontrados
   // en el arreglo de enteros pasado como parámetro
   // Tu código:
+  var nuevoArray = [];
+  for(let i= 0; i < array.length; i++) {
+    if(array[i] % 2 == 0) {
+      nuevoArray.push(array[i]);
+    }
+  }
+  return nuevoArray;
+
+  
 }
 
 function elevaAlCuadrado(array){
   // Devuelve un arreglo con cada número del array
   // elevado al cuadrado
   // Tu código:
+  
 }
 
 function sumaArray(array){
