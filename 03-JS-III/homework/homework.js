@@ -48,13 +48,16 @@ function sumaArray(array){
   // Devuelve el resultado de sumar todos los elementos
   // de un arreglo de enteros dado
   // Tu código:
-  var soloenteros = [];
+  var counter = 0;
  for (var i = 0; i < array.length; i++) {
-   if (array[i] % 1 === 0) { soloenteros.push(array[i])}; 
+   if (array[i] % 1 === 0) {
+       counter += array[i]
+   }; 
  }
-  return soloenteros;
+  return counter;
 
 }
+
 
 function numeroDigitos(num){
   // Devuelve el número de dígitos de un número dado
