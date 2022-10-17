@@ -8,10 +8,13 @@ function imprimirSumaNumeros() {
     // Imprime la suma de los números del 1 al 10
     // Pista: usa un acumulador
     // Tu código:
-   var contando = 0
-   while(contando <= 10) { 
-    console.log( contando ) 
-    contando ++ ; }   
+    var hernan = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    var suma = 0 
+    for (let i = 0; i < hernan.length ; i++) {
+      suma = suma + hernan[i]
+    }
+    return suma 
+
    
 }
 
