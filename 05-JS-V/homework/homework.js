@@ -32,8 +32,16 @@ function agregarStringInvertida() {
   // Ej: 'menem'.reverse() => menem
   // 'toni'.reverse() => 'inot'
   // Pista: Necesitarás usar "this" dentro de "reverse"
-  
+  String.prototype.reverse = function () { 
+      var stringInvertida = "";
+      for(var i = this.length -1 ; i>=0 ; i--) {
+      var stringInvertida = stringInvertida + this[i];
+        
+   }
+   
+   return stringInvertida
 }
+
 
 // ---------------------------------------------------------------------------//
   //Crea el constructor de la clase "Persona"
@@ -76,7 +84,7 @@ function agregarMetodo() {
   //Ej: "Juan, 22 años"
   Persona.prototype.datos = function() { return this.nombre + ", " + this.edad + " años"}; 
 }
-  
+}
 
 // No modificar nada debajo de esta línea
 // --------------------------------
